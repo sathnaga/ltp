@@ -441,8 +441,9 @@ inotify02 inotify02
 inotify03 inotify03 -D DEVICE -T DEVICE_FS_TYPE
 inotify04 inotify04
 inotify05 inotify05
-inotify05 inotify06
-inotify05 inotify07
+inotify06 inotify06
+inotify07 inotify07
+inotify08 inotify08
 
 ioperm01 ioperm01
 ioperm02 ioperm02
