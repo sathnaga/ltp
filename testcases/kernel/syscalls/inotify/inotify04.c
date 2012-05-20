@@ -24,16 +24,9 @@
  */
 
 /****************************************************************************
- * NAME
- *     inotify04
- *
- * DESCRIPTION
- *     verify that IN_DELETE_SELF functions as expected
- *
- * ALGORITHM
- *     Create a temporary directory, then add watches to a predefined file and
- *     directory, and delete the file and directory to ensure that the
- *     IN_DELETE_SELF event is captured properly.
+ *     This testcase creates a temporary directory, then add watches to a
+ *     predefined file and subdirectory, and delete the file and directory to
+ *     ensure that the IN_DELETE_SELF event is captured properly.
  *
  *     Because of how the inotify(7) API is designed, we also need to catch the
  *     IN_ATTRIB and IN_IGNORED events.
